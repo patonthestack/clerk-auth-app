@@ -1,13 +1,6 @@
-import { Button } from './ui/button';
 import { Shield } from 'lucide-react';
 import Link from 'next/link';
-import {
-	SignInButton,
-	SignUpButton,
-	SignedIn,
-	SignedOut,
-	UserButton,
-} from '@clerk/nextjs';
+import { SignInButton, SignedIn, SignedOut, UserButton } from '@clerk/nextjs';
 
 const Header = () => {
 	return (
